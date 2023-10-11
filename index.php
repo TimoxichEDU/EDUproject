@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Отображаем форму для ввода стороны куба
     echo '
         <form method="post">
-            Введите сторону куба (в сантиметрах): <input type="text" name="side" required><br>
+            Введите сторону куба: <input type="text" name="side" required><br>
             <input type="submit" value="Рассчитать">
         </form>';
 }
